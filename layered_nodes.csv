@@ -1,0 +1,107 @@
+node_id,node_type,library,tool_id
+LIB:multimedia,library,multimedia,
+LIB:daily,library,daily,
+LIB:huggingface,library,huggingface,
+TOOL:multimedia::Image Downloader,tool,multimedia,Image Downloader
+TOOL:multimedia::Video Downloader,tool,multimedia,Video Downloader
+TOOL:multimedia::Audio Downloader,tool,multimedia,Audio Downloader
+TOOL:multimedia::Text Downloader,tool,multimedia,Text Downloader
+TOOL:multimedia::Text Search,tool,multimedia,Text Search
+TOOL:multimedia::Image Search,tool,multimedia,Image Search
+TOOL:multimedia::Image Search (by Image),tool,multimedia,Image Search (by Image)
+TOOL:multimedia::URL Extractor,tool,multimedia,URL Extractor
+TOOL:multimedia::Video Search,tool,multimedia,Video Search
+TOOL:multimedia::Text-to-Image,tool,multimedia,Text-to-Image
+TOOL:multimedia::Text-to-Video,tool,multimedia,Text-to-Video
+TOOL:multimedia::Text-to-Audio,tool,multimedia,Text-to-Audio
+TOOL:multimedia::Image-to-Text,tool,multimedia,Image-to-Text
+TOOL:multimedia::Audio-to-Text,tool,multimedia,Audio-to-Text
+TOOL:multimedia::Video-to-Text,tool,multimedia,Video-to-Text
+TOOL:multimedia::Audio Noise Reduction,tool,multimedia,Audio Noise Reduction
+TOOL:multimedia::Audio Effects,tool,multimedia,Audio Effects
+TOOL:multimedia::Audio Splicer,tool,multimedia,Audio Splicer
+TOOL:multimedia::Voice Changer,tool,multimedia,Voice Changer
+TOOL:multimedia::Text Summarizer,tool,multimedia,Text Summarizer
+TOOL:multimedia::Text Translator,tool,multimedia,Text Translator
+TOOL:multimedia::Text Sentiment Analysis,tool,multimedia,Text Sentiment Analysis
+TOOL:multimedia::Text Grammar Checker,tool,multimedia,Text Grammar Checker
+TOOL:multimedia::Text Simplifier,tool,multimedia,Text Simplifier
+TOOL:multimedia::Text Expander,tool,multimedia,Text Expander
+TOOL:multimedia::Keyword Extractor,tool,multimedia,Keyword Extractor
+TOOL:multimedia::Text Paraphraser,tool,multimedia,Text Paraphraser
+TOOL:multimedia::Article Spinner,tool,multimedia,Article Spinner
+TOOL:multimedia::Topic Generator,tool,multimedia,Topic Generator
+TOOL:multimedia::Audio-to-Image,tool,multimedia,Audio-to-Image
+TOOL:multimedia::Image-to-Video,tool,multimedia,Image-to-Video
+TOOL:multimedia::Video-to-Audio,tool,multimedia,Video-to-Audio
+TOOL:multimedia::Video-to-Image,tool,multimedia,Video-to-Image
+TOOL:multimedia::Image Stitcher,tool,multimedia,Image Stitcher
+TOOL:multimedia::Image Colorizer,tool,multimedia,Image Colorizer
+TOOL:multimedia::Image Style Transfer,tool,multimedia,Image Style Transfer
+TOOL:multimedia::Video Stabilizer,tool,multimedia,Video Stabilizer
+TOOL:multimedia::Video Speed Changer,tool,multimedia,Video Speed Changer
+TOOL:multimedia::Video Synchronization,tool,multimedia,Video Synchronization
+TOOL:multimedia::Video Voiceover,tool,multimedia,Video Voiceover
+TOOL:daily::get_weather,tool,daily,get_weather
+TOOL:daily::get_news_for_topic,tool,daily,get_news_for_topic
+TOOL:daily::stock_operation,tool,daily,stock_operation
+TOOL:daily::book_flight,tool,daily,book_flight
+TOOL:daily::book_hotel,tool,daily,book_hotel
+TOOL:daily::book_restaurant,tool,daily,book_restaurant
+TOOL:daily::book_car,tool,daily,book_car
+TOOL:daily::online_shopping,tool,daily,online_shopping
+TOOL:daily::send_email,tool,daily,send_email
+TOOL:daily::send_sms,tool,daily,send_sms
+TOOL:daily::share_by_social_network,tool,daily,share_by_social_network
+TOOL:daily::search_by_engine,tool,daily,search_by_engine
+TOOL:daily::apply_for_job,tool,daily,apply_for_job
+TOOL:daily::see_doctor_online,tool,daily,see_doctor_online
+TOOL:daily::consult_lawyer_online,tool,daily,consult_lawyer_online
+TOOL:daily::enroll_in_course,tool,daily,enroll_in_course
+TOOL:daily::buy_insurance,tool,daily,buy_insurance
+TOOL:daily::online_banking,tool,daily,online_banking
+TOOL:daily::daily_bill_payment,tool,daily,daily_bill_payment
+TOOL:daily::sell_item_online,tool,daily,sell_item_online
+TOOL:daily::do_tax_return,tool,daily,do_tax_return
+TOOL:daily::apply_for_passport,tool,daily,apply_for_passport
+TOOL:daily::pay_for_credit_card,tool,daily,pay_for_credit_card
+TOOL:daily::auto_housework_by_robot,tool,daily,auto_housework_by_robot
+TOOL:daily::auto_driving_to_destination,tool,daily,auto_driving_to_destination
+TOOL:daily::deliver_package,tool,daily,deliver_package
+TOOL:daily::order_food_delivery,tool,daily,order_food_delivery
+TOOL:daily::order_taxi,tool,daily,order_taxi
+TOOL:daily::play_music_by_title,tool,daily,play_music_by_title
+TOOL:daily::play_movie_by_title,tool,daily,play_movie_by_title
+TOOL:daily::take_note,tool,daily,take_note
+TOOL:daily::borrow_book_online,tool,daily,borrow_book_online
+TOOL:daily::recording_audio,tool,daily,recording_audio
+TOOL:daily::make_video_call,tool,daily,make_video_call
+TOOL:daily::make_voice_call,tool,daily,make_voice_call
+TOOL:daily::organize_meeting_online,tool,daily,organize_meeting_online
+TOOL:daily::attend_meeting_online,tool,daily,attend_meeting_online
+TOOL:daily::software_management,tool,daily,software_management
+TOOL:daily::print_document,tool,daily,print_document
+TOOL:daily::set_alarm,tool,daily,set_alarm
+TOOL:huggingface::Token Classification,tool,huggingface,Token Classification
+TOOL:huggingface::Translation,tool,huggingface,Translation
+TOOL:huggingface::Summarization,tool,huggingface,Summarization
+TOOL:huggingface::Question Answering,tool,huggingface,Question Answering
+TOOL:huggingface::Conversational,tool,huggingface,Conversational
+TOOL:huggingface::Text Generation,tool,huggingface,Text Generation
+TOOL:huggingface::Sentence Similarity,tool,huggingface,Sentence Similarity
+TOOL:huggingface::Tabular Classification,tool,huggingface,Tabular Classification
+TOOL:huggingface::Object Detection,tool,huggingface,Object Detection
+TOOL:huggingface::Image Classification,tool,huggingface,Image Classification
+TOOL:huggingface::Image-to-Image,tool,huggingface,Image-to-Image
+TOOL:huggingface::Image-to-Text,tool,huggingface,Image-to-Text
+TOOL:huggingface::Text-to-Image,tool,huggingface,Text-to-Image
+TOOL:huggingface::Text-to-Video,tool,huggingface,Text-to-Video
+TOOL:huggingface::Visual Question Answering,tool,huggingface,Visual Question Answering
+TOOL:huggingface::Document Question Answering,tool,huggingface,Document Question Answering
+TOOL:huggingface::Image Segmentation,tool,huggingface,Image Segmentation
+TOOL:huggingface::Depth Estimation,tool,huggingface,Depth Estimation
+TOOL:huggingface::Text-to-Speech,tool,huggingface,Text-to-Speech
+TOOL:huggingface::Automatic Speech Recognition,tool,huggingface,Automatic Speech Recognition
+TOOL:huggingface::Audio-to-Audio,tool,huggingface,Audio-to-Audio
+TOOL:huggingface::Audio Classification,tool,huggingface,Audio Classification
+TOOL:huggingface::Image Editing,tool,huggingface,Image Editing

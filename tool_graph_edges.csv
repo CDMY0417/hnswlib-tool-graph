@@ -1,0 +1,220 @@
+src_id,dst_id
+Image Downloader,Image Search (by Image)
+Image Downloader,Image-to-Text
+Image Downloader,Image Colorizer
+Video Downloader,Video-to-Image
+Video Downloader,Video-to-Audio
+Video Downloader,Video-to-Text
+Video Downloader,Video Stabilizer
+Audio Downloader,Audio-to-Text
+Audio Downloader,Audio-to-Image
+Audio Downloader,Audio Noise Reduction
+Text Downloader,URL Extractor
+Text Downloader,Text Search
+Text Downloader,Text-to-Audio
+Text Downloader,Keyword Extractor
+Text Downloader,Text-to-Video
+Text Downloader,Text-to-Image
+Text Downloader,Text Simplifier
+Text Downloader,Text Translator
+Text Downloader,Text Summarizer
+Text Downloader,Text Sentiment Analysis
+Text Search,Keyword Extractor
+Text Search,Image Search
+Text Search,Video Search
+Text Search,Text Sentiment Analysis
+Text Search,Topic Generator
+Text Search,Text Grammar Checker
+Text Search,URL Extractor
+Text Search,Text-to-Image
+Text Search,Text-to-Video
+Image Search,Image Search (by Image)
+Image Search,Image-to-Text
+Image Search,Image Colorizer
+Image Search (by Image),Image-to-Text
+Image Search (by Image),Image Colorizer
+URL Extractor,Text Downloader
+URL Extractor,Image Downloader
+URL Extractor,Video Downloader
+URL Extractor,Audio Downloader
+Video Search,Video-to-Image
+Video Search,Video-to-Audio
+Video Search,Video-to-Text
+Video Search,Video Stabilizer
+Text-to-Image,Image Search (by Image)
+Text-to-Image,Image-to-Text
+Text-to-Image,Image Colorizer
+Text-to-Video,Video-to-Text
+Text-to-Video,Video-to-Audio
+Text-to-Video,Video-to-Image
+Text-to-Video,Video Stabilizer
+Text-to-Audio,Audio-to-Text
+Text-to-Audio,Audio-to-Image
+Text-to-Audio,Audio Noise Reduction
+Image-to-Text,Text-to-Image
+Image-to-Text,Image Search
+Image-to-Text,Text-to-Video
+Image-to-Text,Keyword Extractor
+Image-to-Text,Text-to-Audio
+Image-to-Text,URL Extractor
+Image-to-Text,Text Translator
+Image-to-Text,Text Search
+Image-to-Text,Text Sentiment Analysis
+Image-to-Text,Text Summarizer
+Audio-to-Text,Text-to-Audio
+Audio-to-Text,Text-to-Video
+Audio-to-Text,Text Translator
+Audio-to-Text,Text-to-Image
+Audio-to-Text,Text Summarizer
+Audio-to-Text,Keyword Extractor
+Audio-to-Text,Text Expander
+Audio-to-Text,Text Sentiment Analysis
+Audio-to-Text,Text Search
+Audio-to-Text,Text Paraphraser
+Video-to-Text,Text-to-Audio
+Video-to-Text,Text-to-Video
+Video-to-Text,Text-to-Image
+Video-to-Text,Text Translator
+Video-to-Text,Text Summarizer
+Video-to-Text,Text Expander
+Video-to-Text,Keyword Extractor
+Video-to-Text,Video Search
+Video-to-Text,Text Sentiment Analysis
+Video-to-Text,Text Paraphraser
+Audio Noise Reduction,Audio-to-Text
+Audio Noise Reduction,Audio-to-Image
+Audio Effects,Audio-to-Text
+Audio Effects,Audio Noise Reduction
+Audio Effects,Audio-to-Image
+Audio Splicer,Audio-to-Text
+Audio Splicer,Audio Noise Reduction
+Audio Splicer,Audio-to-Image
+Voice Changer,Audio-to-Text
+Voice Changer,Audio-to-Image
+Voice Changer,Audio Noise Reduction
+Text Summarizer,Text Expander
+Text Summarizer,Text Simplifier
+Text Summarizer,Keyword Extractor
+Text Summarizer,Text-to-Video
+Text Summarizer,Text-to-Image
+Text Summarizer,Text Paraphraser
+Text Summarizer,Text-to-Audio
+Text Summarizer,Text Sentiment Analysis
+Text Summarizer,Topic Generator
+Text Translator,Text Paraphraser
+Text Translator,Text Summarizer
+Text Translator,Text-to-Image
+Text Translator,Text Simplifier
+Text Translator,Keyword Extractor
+Text Translator,Text-to-Video
+Text Translator,Text Grammar Checker
+Text Translator,Text Sentiment Analysis
+Text Translator,Text Expander
+Text Sentiment Analysis,Keyword Extractor
+Text Sentiment Analysis,Text Search
+Text Sentiment Analysis,Text Summarizer
+Text Sentiment Analysis,Text Expander
+Text Sentiment Analysis,Topic Generator
+Text Sentiment Analysis,Text-to-Image
+Text Sentiment Analysis,Text Grammar Checker
+Text Sentiment Analysis,Text-to-Video
+Text Sentiment Analysis,Text-to-Audio
+Text Grammar Checker,Text Simplifier
+Text Grammar Checker,Text Paraphraser
+Text Grammar Checker,Text Sentiment Analysis
+Text Grammar Checker,Text Search
+Text Grammar Checker,Text Expander
+Text Grammar Checker,Text Translator
+Text Grammar Checker,Keyword Extractor
+Text Grammar Checker,Text Summarizer
+Text Grammar Checker,Article Spinner
+Text Simplifier,Text Paraphraser
+Text Simplifier,Text Expander
+Text Simplifier,Text Summarizer
+Text Simplifier,Article Spinner
+Text Simplifier,Text Grammar Checker
+Text Simplifier,URL Extractor
+Text Simplifier,Text Translator
+Text Simplifier,Text Sentiment Analysis
+Text Simplifier,Text-to-Image
+Text Expander,Text Summarizer
+Text Expander,Text Simplifier
+Text Expander,Text-to-Image
+Text Expander,Text Paraphraser
+Text Expander,Text-to-Video
+Text Expander,Article Spinner
+Text Expander,Text-to-Audio
+Text Expander,Keyword Extractor
+Text Expander,Text Sentiment Analysis
+Keyword Extractor,Text Search
+Keyword Extractor,Text Sentiment Analysis
+Keyword Extractor,Text Summarizer
+Keyword Extractor,Topic Generator
+Keyword Extractor,URL Extractor
+Keyword Extractor,Text Expander
+Keyword Extractor,Text-to-Image
+Keyword Extractor,Text Paraphraser
+Keyword Extractor,Text-to-Audio
+Text Paraphraser,Text Simplifier
+Text Paraphraser,Article Spinner
+Text Paraphraser,Text Expander
+Text Paraphraser,Text Summarizer
+Text Paraphraser,Text Translator
+Text Paraphraser,Text Grammar Checker
+Text Paraphraser,Keyword Extractor
+Text Paraphraser,URL Extractor
+Text Paraphraser,Text-to-Image
+Article Spinner,Text Paraphraser
+Article Spinner,Text Simplifier
+Article Spinner,Text Expander
+Article Spinner,Text Summarizer
+Article Spinner,Text Grammar Checker
+Article Spinner,Text-to-Audio
+Article Spinner,Text-to-Video
+Article Spinner,Topic Generator
+Article Spinner,Text Translator
+Topic Generator,Keyword Extractor
+Topic Generator,Text-to-Audio
+Topic Generator,Text-to-Image
+Topic Generator,Text-to-Video
+Topic Generator,Text Summarizer
+Topic Generator,Text Search
+Topic Generator,Text Sentiment Analysis
+Topic Generator,Text Expander
+Topic Generator,Video Search
+Audio-to-Image,Image Colorizer
+Audio-to-Image,Image Search (by Image)
+Audio-to-Image,Image-to-Text
+Image-to-Video,Video-to-Image
+Image-to-Video,Video Stabilizer
+Image-to-Video,Video-to-Text
+Image-to-Video,Video-to-Audio
+Video-to-Audio,Audio-to-Text
+Video-to-Audio,Audio-to-Image
+Video-to-Audio,Audio Noise Reduction
+Video-to-Image,Image-to-Text
+Video-to-Image,Image Search (by Image)
+Video-to-Image,Image Colorizer
+Image Stitcher,Image Search (by Image)
+Image Stitcher,Image Colorizer
+Image Stitcher,Image-to-Text
+Image Colorizer,Image Search (by Image)
+Image Colorizer,Image-to-Text
+Image Style Transfer,Image Colorizer
+Image Style Transfer,Image Search (by Image)
+Image Style Transfer,Image-to-Text
+Video Stabilizer,Video-to-Image
+Video Stabilizer,Video-to-Text
+Video Stabilizer,Video-to-Audio
+Video Speed Changer,Video Stabilizer
+Video Speed Changer,Video-to-Text
+Video Speed Changer,Video-to-Audio
+Video Speed Changer,Video-to-Image
+Video Synchronization,Video-to-Text
+Video Synchronization,Video-to-Audio
+Video Synchronization,Video-to-Image
+Video Synchronization,Video Stabilizer
+Video Voiceover,Video-to-Text
+Video Voiceover,Video-to-Audio
+Video Voiceover,Video-to-Image
+Video Voiceover,Video Stabilizer

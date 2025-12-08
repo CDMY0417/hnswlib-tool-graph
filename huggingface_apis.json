@@ -1,0 +1,515 @@
+{
+  "nodes": [
+    {
+      "id": "Token Classification",
+      "desc": "Token classification is a natural language understanding task in which a label is assigned to some tokens in a text. Some popular token classification subtasks are Named Entity Recognition (NER) and Part-of-Speech (PoS) tagging. NER models could be trained to identify specific entities in a text, such as dates, individuals and places; and PoS tagging would identify, for example, which words in a text are verbs, nouns, and punctuation marks.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The text to classify tokens in"
+        },
+        {
+          "name": "model_type",
+          "type": "string",
+          "desc": "Type of token classification, e.g., NER, PoS tagging"
+        }
+      ]
+    },
+    {
+      "id": "Translation",
+      "desc": "Translation is the task of converting text from one language to another.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The text to translate"
+        },
+        {
+          "name": "target_language",
+          "type": "string",
+          "desc": "The target language for translation"
+        }
+      ]
+    },
+    {
+      "id": "Summarization",
+      "desc": "Summarization is the task of producing a shorter version of a document while preserving its important information. Some models can extract text from the original input, while other models can generate entirely new text.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The document text to summarize"
+        },
+        {
+          "name": "max_length",
+          "type": "string",
+          "desc": "Maximum length of the summary"
+        }
+      ]
+    },
+    {
+      "id": "Question Answering",
+      "desc": "Question Answering models can retrieve the answer to a question from a given text, which is useful for searching for an answer in a document.",
+      "input-type": [
+        "text",
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "context",
+          "type": "string",
+          "desc": "The context text to answer questions from"
+        },
+        {
+          "name": "question",
+          "type": "string",
+          "desc": "The question to answer"
+        }
+      ]
+    },
+    {
+      "id": "Conversational",
+      "desc": "Conversational response modelling is the task of generating conversational text that is relevant, coherent and knowledgable given a prompt. These models have applications in chatbots, and as a part of voice assistants",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The prompt or previous conversation text"
+        },
+        {
+          "name": "history",
+          "type": "string",
+          "desc": "Previous conversation history (optional)"
+        }
+      ]
+    },
+    {
+      "id": "Text Generation",
+      "desc": "Generating text is the task of producing new text. These models can, for example, fill in incomplete text or paraphrase.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The initial text or prompt"
+        },
+        {
+          "name": "length",
+          "type": "string",
+          "desc": "Length of generated text"
+        }
+      ]
+    },
+    {
+      "id": "Sentence Similarity",
+      "desc": "Sentence Similarity is the task of determining how similar two texts are. This task is particularly useful for information retrieval and clustering/grouping.",
+      "input-type": [
+        "text",
+        "text"
+      ],
+       "output-type": [
+         "text"
+       ],
+      "parameters": [
+        {
+          "name": "text1",
+          "type": "string",
+          "desc": "First text for comparison"
+        },
+        {
+          "name": "text2",
+          "type": "string",
+          "desc": "Second text for comparison"
+        }
+      ]
+    },
+    {
+      "id": "Tabular Classification",
+      "desc": "Tabular classification is the task of classifying a table (in Image format).",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "Image of the table to classify"
+        },
+        {
+          "name": "classification_type",
+          "type": "string",
+          "desc": "Type of classification task"
+        }
+      ]
+    },
+    {
+      "id": "Object Detection",
+      "desc": "Object Detection models allow users to identify objects of certain defined classes. Object detection models receive an image as input and output the images with bounding boxes and labels on detected objects.",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to detect objects in"
+        },
+        {
+          "name": "confidence_threshold",
+          "type": "string",
+          "desc": "Minimum confidence score for detection"
+        }
+      ]
+    },
+    {
+      "id": "Image Classification",
+      "desc": "Image classification is the task of assigning a label or class to an entire image. Images are expected to have only one class for each image. Image classification models take an image as input and return a prediction about which class the image belongs to.",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to classify"
+        },
+        {
+          "name": "num_classes",
+          "type": "string",
+          "desc": "Number of expected classes"
+        }
+      ]
+    },
+    {
+      "id": "Image-to-Image",
+      "desc": "Image-to-image is the task of transforming a source image to match the characteristics of a target image or a target image domain. Any image manipulation and enhancement is possible with image to image models.",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "image"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The source image to transform"
+        },
+        {
+          "name": "target_domain",
+          "type": "string",
+          "desc": "Target image domain or style"
+        }
+      ]
+    },
+    {
+      "id": "Image-to-Text",
+      "desc": "Image to text models output a text from a given image. Image captioning or optical character recognition can be considered as the most common applications of image to text.",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to convert to text"
+        },
+        {
+          "name": "task_type",
+          "type": "string",
+          "desc": "Type of task, e.g., captioning, OCR"
+        }
+      ]
+    },
+    {
+      "id": "Text-to-Image",
+      "desc": "Generates images from input text. These models can be used to generate images based on text prompts.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "image"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The text description to generate image from"
+        },
+        {
+          "name": "num_images",
+          "type": "string",
+          "desc": "Number of images to generate"
+        }
+      ]
+    },
+    {
+      "id": "Text-to-Video",
+      "desc": "Generates videos from input text. These models can be used to generate videos based on text prompts.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "video"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The text prompt to generate video from"
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "desc": "Duration of video in seconds"
+        }
+      ]
+    },
+    {
+      "id": "Visual Question Answering",
+      "desc": "Visual Question Answering is the task of answering questions based on an image.",
+      "input-type": [
+        "image",
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to answer questions about"
+        },
+        {
+          "name": "question",
+          "type": "string",
+          "desc": "The question about the image"
+        }
+      ]
+    },
+    {
+      "id": "Document Question Answering",
+      "desc": "Document Question Answering (also known as Document Visual Question Answering) is the task of answering questions on document images. Document question answering models take a (document, question) pair as input and return an answer in natural language. Models usually rely on multi-modal features, combining text, position of words (bounding-boxes) and image.",
+      "input-type": [
+        "image",
+        "text"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The document image"
+        },
+        {
+          "name": "question",
+          "type": "string",
+          "desc": "The question about the document"
+        }
+      ]
+    },
+    {
+      "id": "Image Segmentation",
+      "desc": "Image Segmentation divides an image into segments where each pixel in the image is mapped to an object. This task has multiple variants such as instance segmentation, panoptic segmentation and semantic segmentation.",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "image"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to segment"
+        },
+        {
+          "name": "segmentation_type",
+          "type": "string",
+          "desc": "Type of segmentation, e.g., semantic, instance, panoptic"
+        }
+      ]
+    },
+    {
+      "id": "Depth Estimation",
+      "desc": "Depth estimation is the task of predicting depth of the objects present in an image.",
+      "input-type": [
+        "image"
+      ],
+      "output-type": [
+        "image"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to estimate depth from"
+        },
+        {
+          "name": "method",
+          "type": "string",
+          "desc": "Depth estimation method"
+        }
+      ]
+    },
+    {
+      "id": "Text-to-Speech",
+      "desc": "Text-to-Speech (TTS) is the task of generating natural sounding speech given text input. TTS models can be extended to have a single model that generates speech for multiple speakers and multiple languages.",
+      "input-type": [
+        "text"
+      ],
+      "output-type": [
+        "audio"
+      ],
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "desc": "The text to convert to speech"
+        },
+        {
+          "name": "speaker_id",
+          "type": "string",
+          "desc": "Speaker identity (optional)"
+        }
+      ]
+    },
+    {
+      "id": "Automatic Speech Recognition",
+      "desc": "Automatic Speech Recognition (ASR), also known as Speech to Text (STT), is the task of transcribing a given audio to text. It has many applications, such as voice user interfaces.",
+      "input-type": [
+        "audio"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "audio",
+          "type": "string",
+          "desc": "The audio file to transcribe"
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "desc": "Language of the audio"
+        }
+      ]
+    },
+    {
+      "id": "Audio-to-Audio",
+      "desc": "Audio-to-Audio is a family of tasks in which the input is an audio and the output is one or multiple generated audios. Some example tasks are speech enhancement and source separation.",
+      "input-type": [
+        "audio"
+      ],
+      "output-type": [
+        "audio"
+      ],
+      "parameters": [
+        {
+          "name": "audio",
+          "type": "string",
+          "desc": "The input audio to process"
+        },
+        {
+          "name": "task_type",
+          "type": "string",
+          "desc": "Type of audio task, e.g., enhancement, separation"
+        }
+      ]
+    },
+    {
+      "id": "Audio Classification",
+      "desc": "Audio classification is the task of assigning a label or class to a given audio. It can be used for recognizing which command a user is giving or the emotion of a statement, as well as identifying a speaker.",
+      "input-type": [
+        "audio"
+      ],
+      "output-type": [
+        "text"
+      ],
+      "parameters": [
+        {
+          "name": "audio",
+          "type": "string",
+          "desc": "The audio to classify"
+        },
+        {
+          "name": "classification_type",
+          "type": "string",
+          "desc": "Type of classification, e.g., emotion, command, speaker"
+        }
+      ]
+    },
+    {
+      "id": "Image Editing",
+      "desc": "Image editing is the task of modifying an image to match a given text description. It can be used to modify the attributes of an image, such as the color of an object or the background.",
+      "input-type": [
+        "text",
+        "image"
+      ],
+      "output-type": [
+        "image"
+      ],
+      "parameters": [
+        {
+          "name": "image",
+          "type": "string",
+          "desc": "The image to edit"
+        },
+        {
+          "name": "instruction",
+          "type": "string",
+          "desc": "Text description of desired modifications"
+        }
+      ]
+    }
+  ]
+}
