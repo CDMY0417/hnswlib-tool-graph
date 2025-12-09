@@ -34,7 +34,6 @@ def map_graph_nodes_to_keys(graph_nodes: List[str]) -> Dict[Tuple[Optional[str],
             lib = lib.strip()
             name = name.strip()
             mapping[(lib, name)] = gn
-            # also allow name-only lookup (if unambiguous in this example)
             if (None, name) not in mapping:
                 mapping[(None, name)] = gn
         else:

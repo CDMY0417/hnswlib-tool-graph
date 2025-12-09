@@ -193,8 +193,6 @@ float cosine_to_query(
     const std::vector<float>& query,
     const std::vector<float>& emb
 ) {
-    // embeddings are normalized (sentence-transformers with normalize_embeddings=True)
-    // so dot product == cosine similarity.
     float dot = 0.0f;
     int dim = (int)query.size();
     for (int i = 0; i < dim; ++i) {
@@ -345,7 +343,7 @@ int main() {
         ToolTypeFilter filter(input_seqs, output_seqs);
 
         int K_graph = 32;
-        float sim_threshold = 0.7f;  // cosine similarity threshold
+        float sim_threshold = 0.7f;
 
         std::vector<std::vector<int>> adjacency(num_tools);
 
@@ -355,11 +353,10 @@ int main() {
 
             auto& nbrs = adjacency[i];
             for (auto& p : result) {
-                float dist_sq = p.first;           // squared L2 distance
+                float dist_sq = p.first;
                 int j = (int)p.second;
                 if (j == i) continue;
 
-                // embeddings normalized: cos = 1 - 0.5 * ||x - y||^2
                 float cos_sim = 1.0f - 0.5f * dist_sq;
                 if (cos_sim >= sim_threshold) {
                     nbrs.push_back(j);
@@ -369,7 +366,6 @@ int main() {
 
         std::cout << "Built adjacency graph with IO + similarity constraints\n";
 
-        // Map tool key -> index (for gold mapping)
         std::unordered_map<std::string, int> key_to_idx;
         for (int i = 0; i < num_tools; ++i) {
             key_to_idx[make_key(tools[i].library, tools[i].id)] = i;
@@ -394,7 +390,6 @@ int main() {
         double sum_prefix_ratio = 0.0;
 
         for (const auto& q : queries) {
-            // map gold_keys -> indices
             std::vector<int> gold_idx;
             bool ok = true;
             for (const auto& key : q.gold_keys) {
